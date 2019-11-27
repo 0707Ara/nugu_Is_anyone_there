@@ -1,7 +1,6 @@
 const uuid = require('uuid').v4
 const _ = require('lodash')
 const { DOMAIN } = require('../config')
-const config = require('./config.json')
 const fs = require('fs')
 let result=0;
 
